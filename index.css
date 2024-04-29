@@ -1,0 +1,61 @@
+*{
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#nav-container{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    gap: 0.5rem;
+    text-decoration: none;
+}
+#nav{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+button{
+    background-color: palevioletred;
+    border-radius: 15px;
+}
+#avatar{
+    display: flex;
+    background-image: url(https://4.bp.blogspot.com/-Me3-M0U9XIU/Tn3Wr7YJDsI/AAAAAAAAAO0/EcrlIFlGEwM/s1600/family+dogs-473268.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    transition: all .3s ease-in-out;
+}
+#tech-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#tech{
+    width: 50px;
+    height: 50px;
+    filter: grayscale(100%) brightness(50%);
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    filter: brightness(100%);
+}
+.fonts{
+    font-family:"Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+#sites{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
